@@ -1,10 +1,12 @@
 style modTextHeader is text:
     size 100
     color "#fff"
+    font "DejaVuSans.ttf"
 
 style modTextBody is text:
     size 50
     color "#fff"
+    font "DejaVuSans.ttf"
 
 style modTextBody2 is text:
     size 32

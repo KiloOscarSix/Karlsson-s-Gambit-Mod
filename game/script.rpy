@@ -1968,7 +1968,7 @@ label sampunishthree:
             pp2 "Hah, I appreciate the honest answer. But I like you right now [pname], no need to worry that much."
             pp2 "Maybe next time we can just do the normal whips and chains sort of thing, that's more common for me. Let's go back to your cell."
             jump aftermath
-        "Agree with her that it would have been better if she had been fucking you. [DomPath] [SamamthaPath]":
+        "Agree with her that it would have been better if she had been fucking you. [DomPath] [SamanthaPath]":
             $ dom += 1
             $ sam_p += 2
             scene samp24 with longdissolve
@@ -3723,7 +3723,7 @@ label jaketwo:
     scene e2jake11 with mediumdissolve
     pbf "You. A room. A bed. Sam or Pat?"
     menu:
-        "Samantha is definitely a scary chick but there's something about her and she's damn hot... [SamamthaPath]":
+        "Samantha is definitely a scary chick but there's something about her and she's damn hot... [SamanthaPath]":
             scene e2jake12 with mediumdissolve
             $ sam_p += 1
             p "I have to go with Sam I guess. But I wonder if it's worth the risk."
@@ -6002,7 +6002,7 @@ label kanewakeup:
     scene e3kanewakeup3 with longfade
     pp2 "Aren't you excited to start your new life as a guinea pig instead of a rat?"
     menu:
-        "(Tell Sam sarcastically that you will miss her so much.) [SamamthaPath]":
+        "(Tell Sam sarcastically that you will miss her so much.) [SamanthaPath]":
             scene e3kanewakeup4 with mediumdissolve
             $ sam_p += 1
             p "No Sam, I'm actually so sad I won't have the benefit of your charm every day!"
@@ -6021,7 +6021,7 @@ label kanewakeup:
             p "Hmm, I guess so."
             pp2 "Oh, you really sound so excited [pname]. Honestly, I guess I can't blame you. But you can change your fate if you work at it."
             jump kanewakeuptwo
-        "(Tell her how unhappy you are that you never got to have sex with her.) [SamamthaPath] [DomPath]":
+        "(Tell her how unhappy you are that you never got to have sex with her.) [SamanthaPath] [DomPath]":
             $ dom += 1
             $ sam_p += 1
             scene e3kanewakeup7 with mediumdissolve
